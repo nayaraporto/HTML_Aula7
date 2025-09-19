@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Estudantes</title>
+    <style>
+        /* Estilo básico para a tabela */
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        thead {
+            background-color: #d772d4;
+            color: white;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tfoot {
+            background-color: #f3c5f1;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Informações dos Estudantes</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Matéria Favorita</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nayara</td>
+                <td>16</td>
+                <td>Arte</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>16</td>
+                <td>História</td>
+            </tr>
+            <tr>
+                <td>Malu</td>
+                <td>17</td>
+                <td>Matemática</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total de Estudantes: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

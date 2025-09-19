@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Restaurante</title>
+    <style>
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        caption {
+            font-size: 2em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #d5637e;
+            color: white;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .price {
+            font-weight: bold;
+            color: rgb(216, 49, 110);
+        }
+
+        .category {
+            font-style: italic;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Cardápio do Restaurante</caption>
+        <thead>
+            <tr>
+                <th>Nome do Prato</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+                <th>Ingredientes/Alérgenos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pizza Margherita</td>
+                <td>Molho de tomate, queijo mozzarella, manjericão fresco</td>
+                <td class="price">R$ 35,00</td>
+                <td class="category">Prato Principal</td>
+                <td>Contém glúten, lactose</td>
+            </tr>
+            <tr>
+                <td>Burguer Clássico</td>
+                <td>Pão, hambúrguer de carne, queijo, alface, tomate, molho especial</td>
+                <td class="price">R$ 28,00</td>
+                <td class="category">Lanche</td>
+                <td>Contém glúten, lactose</td>
+            </tr>
+            <tr>
+                <td>Risoto de Frutos do Mar</td>
+                <td>Arroz arbóreo, camarões, lulas, molhos especiais</td>
+                <td class="price">R$ 50,00</td>
+                <td class="category">Prato Principal</td>
+                <td>Contém mariscos, glúten</td>
+            </tr>
+            <tr>
+                <td>Cheesecake de Frutas Vermelhas</td>
+                <td>Cheesecake cremoso com calda de frutas vermelhas</td>
+                <td class="price">R$ 18,00</td>
+                <td class="category">Sobremesa</td>
+                <td>Contém lactose</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
